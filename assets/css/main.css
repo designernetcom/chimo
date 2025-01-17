@@ -13009,7 +13009,7 @@ only screen and (min-width: 768px) and (max-width: 991px),
 }
 
 .vl-logo {
-  text-align: center;
+  /* text-align: center; */
 }
 
 .about1-section-area p {
@@ -13403,5 +13403,94 @@ only screen and (min-width: 768px) and (max-width: 991px),
   transform: translate(-50%, -50%);
 }
 }
+
+.vl-blog-1-content h4 {
+  color: white !important;
+  font-family: "Space Grotesk", serif;
+}
+
+.bounce {
+  animation: bounce 2s ease infinite;
+}
+@keyframes bounce {
+    70% { transform:translateY(0%); }
+    80% { transform:translateY(-15%); }
+    90% { transform:translateY(0%); }
+    95% { transform:translateY(-7%); }
+    97% { transform:translateY(0%); }
+    99% { transform:translateY(-3%); }
+    100% { transform:translateY(0); }
+}
+
+.sticks-icon {
+  z-index: 11111;
+  position: fixed;
+  bottom: 10%;
+  left: 20px;
+  width: 233px;
+  text-align: center;
+  font-size: 18px;
+  color: white;
+  padding: 15px;
+  border-radius: 20px;
+  background: #000000;
+  border-bottom: 3px solid navajowhite;
+  font-family: "Space Grotesk", serif;
+
+
+
+}
+.sticks-icon.call {
+  bottom: 15%;
+  left: auto;
+  right: 20px !important;
+}
+.sticks-icon.call a {
+  background: none;
+}
+
+.sticks-icon a {
+    /* transform: translate(120px, 0px); */
+    text-align: left;
+    text-transform: uppercase;
+    font-size: 18px;
+    color: white !important;
+    background: #b81f5f;
+    font-family: Oswald, sans-serif;
+    border-radius: 20px;
+    margin: 2px;
+    text-decoration: none;
+    padding: 12px;
+    transition: all 0.8s ease 0s;
+}
+
+.sticks-icon a i.fa-phone {
+  background-color: rgb(184 31 95);
+  color: rgb(255, 255, 255);
+  font-size: 35px;
+}
+
+.sticks-icon a i {
+  height: 55px;
+  width: 55px;
+  color: rgb(59, 89, 152);
+  text-align: center;
+  line-height: 55px;
+  margin-right: 5px;
+  margin-left: -20px;
+  border-radius: 20%;
+  transition: all 0.5s ease 0s;
+}
+
+.sticks-icon a i.fa-whatsapp {
+  background-color: #B81F5F;
+  color: rgb(255, 255, 255);
+  font-size: 35px;
+}
+
+.sticks-icon a:hover i {
+  transform: rotate(360deg);
+}
+
 /*============= ABOUT CSS AREA ENDS ===============*/
 /*# sourceMappingURL=main.css.map */
